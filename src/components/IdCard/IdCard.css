@@ -1,0 +1,18 @@
+.idCards{
+    border: 2px solid black;
+    margin: 5px;
+    display:flex;
+    padding: 5px;
+}
+
+.infoDiv{
+
+    width: 100%;
+}
+.infoDiv > ul {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 5px;
+}
