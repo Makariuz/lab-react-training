@@ -8,8 +8,30 @@ import {Greetings} from './components/Greetings/Greetings'
 import { Random } from './components/Random/Random';
 import { BoxColor } from './components/BoxColor/BoxColor';
 import { CreditCard } from './components/CreditCard/CreditCard';
+import { Rating } from './components/Rating/Rating';
+
+/* const creditCardArray = [
+  {
+    id: 1,
+    type="Visa",
+    number="0123456789018845",
+    expirationMonth={3},
+    expirationYear={2021},
+    bank="BNP",
+    owner="Maxence Bouret",
+    bgColor="#11aa99",
+    color="white" ,
+  },
+  {
+
+  },
+  {
+
+  },
+]  I was going to MAP them, but no time*/
 
 function App() {
+
 
 
 
@@ -39,6 +61,7 @@ function App() {
 <BoxColor r={255} g={0} b={0} />
 <BoxColor r={128} g={255} b={0} />
 
+<div className="creditCards">
 <CreditCard
   type="Visa"
   number="0123456789018845"
@@ -71,8 +94,17 @@ function App() {
   bgColor="#ddbb55"
   color="white" 
 />
+</div>
+<Rating>0</Rating>
+<Rating>1.49</Rating>
+<Rating>1.5</Rating>
+<Rating>3</Rating>
+<Rating>4</Rating>
+<Rating>5</Rating>
     </div>
+    
   );
+
 }
 
 export default App;
