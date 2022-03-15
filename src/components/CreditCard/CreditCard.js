@@ -17,6 +17,7 @@ export function CreditCard({type, number, expirationYear, bank, owner, bgColor, 
           
         </div>
      
+     
    
     )
 }
